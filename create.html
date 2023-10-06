@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liberty Market</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/market.css" />
+  </head>
+  <body>
+    <!-- Start header -->
+    <div class="header">
+      <div class="container">
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="details.html">Item Details</a></li>
+            <li><a href="author.html">Author</a></li>
+            <li class="active"><a href="create.html">Create Yours</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- Start create-landing -->
+    <div class="landing-sec">
+      <div class="container">
+        <h4>Liberty NFT Market</h4>
+        <h1>Create Your NFT Now.</h1>
+        <span>Home > <a href="#">Create Yours</a></span>
+        <div class="btns">
+          <a href="explore.html">Explore Our Items</a>
+          <a href="create.html">Create Your NFT</a>
+        </div>
+      </div>  
+    </div>
+    <!-- End create-landing -->
+    <!-- Start Apply -->
+    <div class="apply">
+      <div class="container main-heading">
+        <h2>Apply For <span>Your Item</span> Here.</h2>
+        <form>
+          <div class="row">
+            <div class="row-1">
+              <label for="title">Item Title</label>
+              <input type="title" id="title" placeholder="Ex. Lyon King" required>
+            </div>
+            <div class="row-1">
+              <label for="description">Description For Item</label>
+              <input type="description" name="description" id="description" placeholder="Give us your idea" required>
+            </div>
+            <div class="row-1">
+              <label for="username">Your Username</label>
+              <input type="username" name="username" id="username" placeholder="Ex. @alansmithee" required>
+            </div>
+            <div class="row-2">
+              <label for="price">Price Of Item</label>
+              <input type="price" name="price" id="price" placeholder="Price depends on quality. Ex. 0.06 ETH" required>
+            </div>
+            <div class="row-2">
+              <label for="royalities">Royalties</label>
+              <input type="royalities" name="royalities" id="royalities" placeholder="Common royalties 1-25%" required>
+            </div>
+            <div class="row-1">
+              <label for="file">Your File</label>
+              <input type="file" id="file"/>
+            </div>
+            <div class="btn row-3">
+              <button type="submit" id="form-submit" class="d">Submit Your Applying</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="view-item">
+      <div class="container main-heading">
+        <h2>This Is <span>Your Item</span> Preview.</h2>
+        <div class="box">
+          <img class="img" src="images/item-details-01.jpg" style="border-radius: 20px; transform: translateY(9%);">
+          <div class="info">
+            <h3>Dolores Haze Westworld Eye</h3>
+            <div class="email-box">
+              <img src="images/author-02.jpg" alt="" style="border-radius: 50px;">
+              <h6>Kataleya Smithee<br><a href="#">@kataleey</a></h6>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="price-box">
+            <h5>Current Bid<br><strong>6.06 ETH</strong><br><span>($8055,35)</sp></h5>
+            <h5>Owner<br><strong>Alan Smithee</strong><br><span>(@asmithee)</span></h5>
+            <h5>Ends In<br><strong>3D 05H 20M 58S</strong><br><span>(January 22nd, 2023)</span></h5>
+          </div>
+          <div class="btns">
+            <h4>Place Bid:</h4>
+            <button>1 ETH</button>
+            <button>Submit Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Apply -->
+    <!-- Start footer -->
+    <div class="footer">
+      <div class="container">
+        <p>Copyright © 2023 <a href="#">Liberty</a> NFT Marketplace Co., Ltd. All rights reserved.&nbsp;&nbsp; Designed by YEHIA</p>
+      </div>
+    </div>
+    <!-- End footer -->
+  </body>
